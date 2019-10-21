@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+      <title>Fox Engine</title>
+    </head>
+    <body>
+        <div class="main">
+            <div id="img"><img src="https://upload.wikimedia.org/wikipedia/en/a/af/Fox_Engine_logo.png"></img></div>
+            <div id="name">
+                <h1>Název</h1>
+FOX Engine<br>
+Developer: Konami Digital Entertainment<br>
+            </div>
+            <hr>
+            <div id="main-info">
+                <h1>Zakladní informace</h1>
+spuštěn: září 2013<br>
+proprietární, multiplatformní engine<br>
+jazyk: C++, C#<br>
+platformy: Playstation 3, 4; Xbox 360, ONE; MS Windows<br>
+       </div>
+            <hr>
+            <div id="extra-info">
+                <h1>Zajímavosti</h1>
+-vývoj započal v roce 2008, po spuštění MGS 4<br>
+-používá se výhradně pro hry společnosti Konami<br>
+-pojmenovám po fiktivní vojenské jednotce z herní série MGS<br>
 
+            </div>
+            <hr>
+            <div id="games">
+                <h1>Hry</h1>
+Metal Gear Solid V: The Phantom Pain (Stealth action)<br>
+Pro Evolution Soccer 2019 (Sport)<br>
+P.T. (Horror)<br>
+
+            </div>
+            <hr>
+        </div>
+    </body>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+        body {
+            font-family: "Source Sans Pro";
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        
+        .main {
+            margin: auto;
+            width: 40vw;
+            -webkit-box-shadow: 15px 24px 19px -9px rgba(0, 0, 0, 0.19);
+            -moz-box-shadow: 15px 24px 19px -9px rgba(0, 0, 0, 0.19);
+            box-shadow: 15px 24px 19px -9px rgba(0, 0, 0, 0.19);
+            background-color: rgb(255, 255, 255);
+            padding-bottom: 20px;
+        }
+        
+        #img {
+            position: relative;
+            margin: auto;
+            width: 100%;
+            height: 300px;
+        }
+        
+        img {
+            margin-left: 220px;
+        }
+        
+        hr {
+            width: 90%;
+            border-color: black;
+        }
+        
+        #name, #main-info, #extra-info, #games {
+            width: 90%;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+
+        }
+    </style>
+</html>
