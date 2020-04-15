@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+body{
+    overflow: hidden;
+    background-color: rgb(26, 26, 26);
+    font-family: 'Muli', sans-serif;
+
+}
+
+.head{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(26, 26, 26);
+    width: 150px;
+    z-index: 1;
+    text-align: center;
+    a{
+      position: relative;
+        text-decoration: none;
+        color: white;
+        font-family: 'Muli', sans-serif;
+        margin: auto;
+        transition: 0.3s;
+    }
+    a:hover{
+      color: rgb(0, 195, 255);
+    }
+}
+
+.main{
+    width: fit-content;
+    #box{
+        display: inline-block;
+        width: 100vw;
+        text-align: center;
+        
+    }
+}
+
+
+//carousel open sorce
+
+
+*{
+    box-sizing: border-box;
+  }
+  
+  .slider {
+    width: 100vw;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    
+    
+    
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    
+    overflow: hidden;
+
+  }
+
+  .slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 100vw;
+    height: 500px;
+    margin-right: 50px;
+    border-radius: 10px;
+    margin-top: auto;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    
+  }
+
+  
+  .slider > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+  }
+
+h1,h2,h3{
+    font-size: 30px;
+    color: white;
+}

@@ -1,0 +1,72 @@
+
+<div id="slide-1">
+    <div id="box">
+        <h1>Česko</h1>
+        <h2>hl. město: Praha</h2>
+        <h3>počet obyvatel: 10,65 mil</h3>
+    </div>
+    </div>
+    <div id="slide-2">
+    <div id="box">
+        <h1>Rusko</h1>
+        <h2>hl. město:Moskva</h2>
+        <h3>počet obyvatel: 144,5 mil</h3>
+    </div>
+    </div>
+    <div id="slide-3">
+    <div id="box">
+        <h1>Maďarsko</h1>
+        <h2>hl. město:Budapešť</h2>
+        <h3>počet obyvatel: 9,773 mil</h3>
+    </div>
+    </div>
+    <div id="slide-4">
+    <div id="box">
+        <h1>Rakousko</h1>
+        <h2>hl. město:Vídeň</h2>
+        <h3>počet obyvatel: 8,859 mil</h3>
+    </div>
+    </div>
+    <div id="slide-5">
+    <div id="box">
+        <h1>Španělsko</h1>
+        <h2>hl. město:Madrid</h2>
+        <h3>počet obyvatel: 46,94 mil</h3>
+    </div>
+    </div>
+    <div id="slide-6">
+    <div id="box">
+        <h1>Německo</h1>
+        <h2>hl. město:Berlín</h2>
+        <h3>počet obyvatel: 83,02 mil</h3>
+    </div>
+    </div>
+    <div id="slide-7">
+    <div id="box">
+        <h1>Švýcarsko</h1>
+        <h2>hl. město:Bern</h2>
+        <h3>počet obyvatel: 8,57 mil</h3>
+    </div>
+    </div>
+    <div id="slide-8">
+    <div id="box">
+        <h1>Chorvatsko</h1>
+        <h2>hl. město:Záhřeb</h2>
+        <h3>počet obyvatel: 4,076 mil</h3>
+    </div>
+    </div>
+    <div id="slide-9">
+    <div id="box">
+        <h1>Norsko</h1>
+        <h2>hl. město:Oslo</h2>
+        <h3>počet obyvatel: 5,368 mil</h3>
+    </div>
+    </div>
+    <div id="slide-10">
+    <div id="box">
+        <h1>Dánsko</h1>
+        <h2>hl. město:Kodaň</h2>
+        <h3>počet obyvatel: 5,603 mil</h3>
+    </div>
+    </div>
+    
